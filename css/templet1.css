@@ -486,10 +486,38 @@ color: #777;
   }
 
   /*make resposive*/
-  @media (max-width: 767px) {
-  .contact .info .label,
-  .contact .info .link {
-    font-size: 25px;
+ /*make resposive*/
+  /*  mobile   */
+@media (max-width: 767px) {
+  .landing .title-landing h1 {
+    font-size: 30px;
+  }
+  .landing .title-landing p {
+    font-size: 16px;
+  }
+  .feature .feat {
+    width: 100%;
+    float: none;
+  }
+  .Portfolio .portfolio_contant {
+    margin-left: 0;
+  }
+  .about .about-content .text {
+    padding-left: 0;
+  }
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+  .feature .feat {
+    width: 50%;
+  }
+}
+
+/* widescreen*/
+@media (min-width: 1200px) {
+  .landing .title-landing h1 {
+    font-size: 60px;
   }
 }
 .footer {
@@ -503,3 +531,4 @@ color: #777;
   font-weight: bold;
   color:#10cab7;
 }
+
